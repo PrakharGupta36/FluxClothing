@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main .category-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .category-container img {
+  width: 450px;
+  height: 300px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.35);
+}
+
+main .card {
+  position: relative;
+  text-align: center;
+}
+
+main .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 0.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: black;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+  padding: 1rem;
+  width: 50%;
+  text-transform: uppercase;
+}
+
+main .centered:hover {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=style.css.map */
